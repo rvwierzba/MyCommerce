@@ -1,0 +1,49 @@
+﻿
+@{
+    <h1 style="text-align: center">Clientes</h1>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                 <th>CPF / CNPJ</th>
+                <th>Email</th>
+                <th>#</th>
+                <th>#</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @{
+                foreach(var item in (List<ClienteModel>)ViewBag.ListaClientes)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Nome</td>
+                        <td>@item.CPF_CNPJ</td>
+                        <td>@item.Email</td>
+                        <td><button type="button" class="btn btn-warning" onclick="Editar(@item.Id)">Editar</button></td>
+                        <td><button type="button" class="btn btn-danger" onclick="Deletar(@item.Id)">Deletar</button></td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+    <br />
+    <button class="btn btn-block btn-primary" type="button" style="width: 100%" onclick="Cadastrar()">Cadastrar Cliente</button>
+
+    <script>
+        function Cadastrar(){
+            window.location.href = "../Cliente/Cadastro";
+        }
+
+        function Editar(id){
+            window.location.href = `../Cliente/Cadastro/${id}`
+        }
+
+        function Deletar(id){
+            window.location.href = `../Cliente/Deletar/${id}`
+        }
+    </script>
+}

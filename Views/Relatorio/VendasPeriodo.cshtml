@@ -1,0 +1,59 @@
+﻿@model RelatorioModel
+
+@{
+    <h1 style="text-align: center">Vendas por Período</h1>
+
+    <br />
+
+    <form asp-asp-controller="Relatorio" asp-action="VendasPeriodo" method="post">
+        
+
+        <div class="form-group">
+            <label>Período</label>
+            <input asp-for="DataDe" type="date" class="form-control" />
+        </div>
+
+
+        <div class="form-group">
+            <input asp-for="DataAte" type="date" class="form-control" />
+        </div>
+
+        
+        <button class="btn btn-block btn-success" type="button" style="width: 100%">Pesquisar</button>
+    </form>
+
+    <br />
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>#</th>
+                <th>#</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @{
+                try{
+
+                    foreach (var item in (List<VendedorModel>)ViewBag.ListaVendedores)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Nome</td>
+                            <td>@item.Email</td>
+                            <td><button type="button" class="btn btn-warning" onclick="Editar(@item.Id)">Editar</button></td>
+                            <td><button type="button" class="btn btn-danger" onclick="Deletar(@item.Id)">Deletar</button></td>
+                        </tr>
+                    }
+                
+                }catch{}
+              
+            }
+        </tbody>
+    </table>
+
+}

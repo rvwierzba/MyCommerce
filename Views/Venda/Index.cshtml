@@ -1,0 +1,40 @@
+﻿
+@{
+    <h1 style="text-align: center">Lista de Vendas</h1>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Data</th>
+                <th>Cliente</th>
+                <th>Vendedor</th>
+                <th>Total (R$)</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @{
+                foreach (var item in (List<VendaModel>)ViewBag.ListaVendas)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Data</td>
+                        <td>@item.Cliente_Id</td>
+                        <td>@item.Vendedor_Id</td>
+                        <td>@item.Total</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+    <br />
+    <button class="btn btn-block btn-primary" type="button" style="width: 100%" onclick="Registrar()">Registrar Vendas</button>
+
+    <script>
+        function Registrar() {
+            window.location.href = '../Venda/Registrar';
+        }
+                
+    </script>
+}

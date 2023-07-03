@@ -1,0 +1,87 @@
+﻿
+  @model LoginModel
+   @{Layout = null;}
+
+ <head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MyCommerce.styles.css" asp-append-version="true" />
+ </head>
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MyCommerce</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Readme">README</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Logar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <body class="text-center">
+
+        <main class="form-signin">
+            <form asp-controller="Home" asp-action="Login" method="post" style="width: 90%; margin-left: 5%;">
+                <img class="mb-4" src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+                <h1 class="h3 mb-3 fw-normal">Login</h1>
+          @{
+                try
+                {
+                    if (TempData["LoginError"] != null)
+                    {
+                        var error = TempData["LoginError"].ToString();
+                        <h3 class="text-danger">@error</h3>
+                    }                   
+                }
+                catch 
+                {
+                    
+                }
+            }
+            <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="nome@examplo.com" asp-for="Email">
+                    <label for="floatingInput">Email</label>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Senha" asp-for="Senha" maxlength="10">
+                    <label for="floatingPassword">Senha</label>
+                    <span asp-validation-for="Senha" class="text-danger"></span>
+                </div>
+
+                <div class="checkbox mb-3">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Lembrar-me
+                    </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Logar</button>
+               <a href="#">Não é Cadastrado?</a>
+            </form>
+        </main>
+
+    </body>
+
+
+<footer class="border-top footer text-muted" style="position: fixed; position: fixed; bottom:0; left: 40%">
+    <div class="container">
+        <p style="text-align: center">&copy; 2022 - MyCommerce - <a href="https://www.webting.com.br">WEBTING</a></p>
+    </div>
+</footer>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>

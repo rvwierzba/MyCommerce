@@ -1,0 +1,47 @@
+﻿
+@{
+    <h1 style="text-align: center">Vendedores</h1>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>#</th>
+                <th>#</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @{
+                foreach(var item in (List<VendedorModel>)ViewBag.ListaVendedores)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Nome</td>
+                        <td>@item.Email</td>
+                        <td><button type="button" class="btn btn-warning" onclick="Editar(@item.Id)">Editar</button></td>
+                        <td><button type="button" class="btn btn-danger" onclick="Deletar(@item.Id)">Deletar</button></td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+    <br />
+    <button class="btn btn-block btn-primary" type="button" style="width: 100%" onclick="Cadastrar()">Cadastrar Vendedor</button>
+
+    <script>
+        function Cadastrar(){
+            window.location.href = "../Vendedor/Cadastro";
+        }
+
+        function Editar(id){
+            window.location.href = `../Vendedor/Cadastro/${id}`
+        }
+
+        function Deletar(id){
+            window.location.href = `../Vendedor/Deletar/${id}`
+        }
+    </script>
+}

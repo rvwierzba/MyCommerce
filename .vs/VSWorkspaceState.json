@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\db",
+    "\\Models",
+    "\\Uteis",
+    "\\Views",
+    "\\Views\\Home",
+    "\\Views\\Produto",
+    "\\Views\\Shared",
+    "\\Views\\Venda",
+    "\\Views\\Vendedor"
+  ],
+  "SelectedNode": "\\MyCommerce.csproj",
+  "PreviewInSolutionExplorer": false
+}

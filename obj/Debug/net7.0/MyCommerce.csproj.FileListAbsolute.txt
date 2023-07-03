@@ -1,0 +1,154 @@
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\appsettings.json
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\MyCommerce.staticwebassets.runtime.json
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\MyCommerce.exe
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\MyCommerce.deps.json
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\MyCommerce.runtimeconfig.json
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\MyCommerce.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\MyCommerce.pdb
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\ZstdNet.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\MyCommerce.csproj.AssemblyReference.cache
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\MyCommerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\MyCommerce.AssemblyInfoInputs.cache
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\MyCommerce.AssemblyInfo.cs
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\MyCommerce.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\MyCommerce.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\MyCommerce.RazorAssemblyInfo.cache
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\MyCommerce.RazorAssemblyInfo.cs
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\staticwebassets\msbuild.MyCommerce.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\staticwebassets\msbuild.build.MyCommerce.props
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MyCommerce.props
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MyCommerce.props
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\scopedcss\bundle\MyCommerce.styles.css
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\scopedcss\projectbundle\MyCommerce.bundle.scp.css
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\MyCommerce.csproj.CopyComplete
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\MyCommerce.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\refint\MyCommerce.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\MyCommerce.pdb
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\MyCommerce.genruntimeconfig.cache
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\obj\Debug\net7.0\ref\MyCommerce.dll
+C:\Users\Rafael\Desktop\MyCommerce\MyCommerce\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\appsettings.json
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\MyCommerce.staticwebassets.runtime.json
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\MyCommerce.exe
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\MyCommerce.deps.json
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\MyCommerce.runtimeconfig.json
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\MyCommerce.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\MyCommerce.pdb
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\ZstdNet.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\MyCommerce.csproj.AssemblyReference.cache
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\MyCommerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\MyCommerce.AssemblyInfoInputs.cache
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\MyCommerce.AssemblyInfo.cs
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\MyCommerce.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\MyCommerce.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\MyCommerce.RazorAssemblyInfo.cache
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\MyCommerce.RazorAssemblyInfo.cs
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\staticwebassets\msbuild.MyCommerce.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\staticwebassets\msbuild.build.MyCommerce.props
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MyCommerce.props
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MyCommerce.props
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\scopedcss\bundle\MyCommerce.styles.css
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\scopedcss\projectbundle\MyCommerce.bundle.scp.css
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\MyCommerce.csproj.CopyComplete
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\MyCommerce.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\refint\MyCommerce.dll
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\MyCommerce.pdb
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\MyCommerce.genruntimeconfig.cache
+C:\Users\rafae\Desktop\MyCommerceAspNetMVC-main\obj\Debug\net7.0\ref\MyCommerce.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\MyCommerce.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\refint\MyCommerce.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\MyCommerce.pdb
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\appsettings.json
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\index.json
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\MyCommerce.staticwebassets.runtime.json
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\MyCommerce.exe
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\MyCommerce.deps.json
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\MyCommerce.runtimeconfig.json
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\MyCommerce.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\MyCommerce.pdb
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\ZstdNet.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\MyCommerce.csproj.AssemblyReference.cache
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\MyCommerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\MyCommerce.AssemblyInfoInputs.cache
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\MyCommerce.AssemblyInfo.cs
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\MyCommerce.csproj.CoreCompileInputs.cache
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\MyCommerce.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\MyCommerce.RazorAssemblyInfo.cache
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\MyCommerce.RazorAssemblyInfo.cs
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\staticwebassets\msbuild.MyCommerce.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\staticwebassets\msbuild.build.MyCommerce.props
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MyCommerce.props
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MyCommerce.props
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\scopedcss\bundle\MyCommerce.styles.css
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\scopedcss\projectbundle\MyCommerce.bundle.scp.css
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\MyCommerce.csproj.CopyComplete
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\MyCommerce.genruntimeconfig.cache
+C:\Users\Igor Pereira\Desktop\MyCommerce-main\obj\Debug\net7.0\ref\MyCommerce.dll

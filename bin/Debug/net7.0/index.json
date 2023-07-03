@@ -1,0 +1,197 @@
+{
+  "versão": "3.0.0",
+  "recursos": [
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/query",
+      "@type": "SearchQueryService",
+      "comentário": "Ponto de extremidade de consulta do serviço NuGet Search (principal)"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/query",
+      "@type": "SearchQueryService",
+      "comentário": "Ponto de extremidade de consulta do serviço NuGet Search (secundário)"
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService",
+      "comentário": "Ponto de extremidade de preenchimento automático do serviço NuGet Search (principal)"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService",
+      "comentário": "Ponto de extremidade de preenchimento automático do serviço NuGet Search (secundário)"
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/",
+      "@type": "SearchGalleryQueryService/3.0.0-rc",
+      "comentário": "Serviço de pesquisa baseado em site do Azure usado pela Galeria (principal)"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/",
+      "@type": "SearchGalleryQueryService/3.0.0-rc",
+      "comentário": "Serviço de pesquisa baseado em site do Azure usado pela Galeria (secundário)"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-semver1/",
+      "@type": "RegistrationsBaseUrl",
+      "comentário": "URL base do armazenamento do Azure onde as informações de registro do pacote NuGet são armazenadas"
+    },
+    {
+      "@id": "https://api.nuget.org/v3-flatcontainer/",
+      "@type": "PackageBaseAddress/3.0.0",
+      "comentário": "URL base de onde os pacotes NuGet são armazenados, no formato https://api.nuget.org/v3-flatcontainer/{id-lower}/{version-lower}/{id-lower}.{ versão inferior}.nupkg"
+    },
+    {
+      "@id": "https://www.nuget.org/api/v2",
+      "@type": "LegacyGallery"
+    },
+    {
+      "@id": "https://www.nuget.org/api/v2",
+      "@type": "LegacyGallery/2.0.0"
+    },
+    {
+      "@id": "https://www.nuget.org/api/v2/package",
+      "@type": "PackagePublish/2.0.0"
+    },
+    {
+      "@id": "https://www.nuget.org/api/v2/symbolpackage",
+      "@type": "SymbolPackagePublish/4.9.0",
+      "comment": "O endpoint de publicação do símbolo da galeria."
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/query",
+      "@type": "SearchQueryService/3.0.0-rc",
+      "comentário": "Ponto de extremidade de consulta do serviço NuGet Search (principal) usado por clientes RC"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/query",
+      "@type": "SearchQueryService/3.0.0-rc",
+      "comentário": "Ponto de extremidade de consulta do serviço NuGet Search (secundário) usado por clientes RC"
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/query",
+      "@type": "SearchQueryService/3.5.0",
+      "comentário": "Ponto de extremidade de consulta do serviço NuGet Search (primário) que oferece suporte à filtragem de tipo de pacote"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/query",
+      "@type": "SearchQueryService/3.5.0",
+      "comentário": "Ponto de extremidade de consulta do serviço NuGet Search (secundário) que oferece suporte à filtragem de tipo de pacote"
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService/3.0.0-rc",
+      "comentário": "Endpoint de preenchimento automático do serviço NuGet Search (principal) usado por clientes RC"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService/3.0.0-rc",
+      "comentário": "Endpoint de preenchimento automático do serviço NuGet Search (secundário) usado por clientes RC"
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService/3.5.0",
+      "comentário": "Ponto de extremidade de preenchimento automático do serviço NuGet Search (primário) que oferece suporte à filtragem de tipo de pacote"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService/3.5.0",
+      "comentário": "Ponto de extremidade de preenchimento automático do serviço NuGet Search (secundário) que oferece suporte à filtragem de tipo de pacote"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-semver1/",
+      "@type": "RegistrationsBaseUrl/3.0.0-rc",
+      "comentário": "URL base do armazenamento do Azure onde as informações de registro do pacote NuGet são armazenadas usadas por clientes RC. Esta URL base não inclui pacotes SemVer 2.0.0."
+    },
+    {
+      "@id": "https://www.nuget.org/packages/{id}/{version}/ReportAbuse",
+      "@type": "ReportAbuseUriTemplate/3.0.0-rc",
+      "comentário": "Modelo de URI usado pelo cliente NuGet para construir URL de relatório de abuso para pacotes usados ​​por clientes RC"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-semver1/{id-lower}/index.json",
+      "@type": "PackageDisplayMetadataUriTemplate/3.0.0-rc",
+      "comentário": "Modelo de URI usado pelo cliente NuGet para construir metadados de exibição para pacotes usando ID"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-semver1/{id-lower}/{version-lower}.json",
+      "@type": "PackageVersionDisplayMetadataUriTemplate/3.0.0-rc",
+      "comentário": "Modelo de URI usado pelo cliente NuGet para construir metadados de exibição para pacotes usando ID, versão"
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/query",
+      "@type": "SearchQueryService/3.0.0-beta",
+      "comentário": "Ponto de extremidade de consulta do serviço NuGet Search (principal) usado por clientes beta"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/query",
+      "@type": "SearchQueryService/3.0.0-beta",
+      "comentário": "Ponto de extremidade de consulta do serviço NuGet Search (secundário) usado por clientes beta"
+    },
+    {
+      "@id": "https://azuresearch-usnc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService/3.0.0-beta",
+      "comentário": "Endpoint de preenchimento automático do serviço NuGet Search (principal) usado por clientes beta"
+    },
+    {
+      "@id": "https://azuresearch-ussc.nuget.org/autocomplete",
+      "@type": "SearchAutocompleteService/3.0.0-beta",
+      "comentário": "Endpoint de preenchimento automático do serviço NuGet Search (secundário) usado por clientes beta"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-semver1/",
+      "@type": "RegistrationsBaseUrl/3.0.0-beta",
+      "comentário": "URL base do armazenamento do Azure onde as informações de registro do pacote NuGet são armazenadas usadas por clientes Beta. Esta URL base não inclui pacotes SemVer 2.0.0."
+    },
+    {
+      "@id": "https://www.nuget.org/packages/{id}/{version}/ReportAbuse",
+      "@type": "ReportAbuseUriTemplate/3.0.0-beta",
+      "comentário": "Modelo de URI usado pelo cliente NuGet para construir URL de relatório de abuso para pacotes"
+    },
+    {
+      "@id": "https://www.nuget.org/packages/{id}/{version}?_src=template",
+      "@type": "PackageDetailsUriTemplate/5.1.0",
+      "comentário": "Modelo de URI usado pelo cliente NuGet para construir URL de detalhes para pacotes"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-gz-semver1/",
+      "@type": "RegistrationsBaseUrl/3.4.0",
+      "comentário": "URL base do armazenamento do Azure onde as informações de registro do pacote NuGet são armazenadas no formato GZIP. Esta URL base não inclui pacotes SemVer 2.0.0."
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-gz-semver2/",
+      "@type": "RegistrationsBaseUrl/3.6.0",
+      "comentário": "URL base do armazenamento do Azure onde as informações de registro do pacote NuGet são armazenadas no formato GZIP. Esta URL base inclui pacotes SemVer 2.0.0."
+    },
+    {
+      "@id": "https://api.nuget.org/v3/registration5-gz-semver2/",
+      "@type": "RegistrationsBaseUrl/Versionado",
+      "clientVersion": "4.3.0-alpha",
+      "comentário": "URL base do armazenamento do Azure onde as informações de registro do pacote NuGet são armazenadas no formato GZIP. Esta URL base inclui pacotes SemVer 2.0.0."
+    },
+    {
+      "@id": "https://api.nuget.org/v3-index/repository-signatures/4.7.0/index.json",
+      "@type": "RepositorySignatures/4.7.0",
+      "comentário": "O endpoint para descobrir informações sobre as assinaturas do repositório desta fonte de pacote."
+    },
+    {
+      "@id": "https://api.nuget.org/v3-index/repository-signatures/5.0.0/index.json",
+      "@type": "RepositorySignatures/5.0.0",
+      "comentário": "O endpoint para descobrir informações sobre as assinaturas do repositório desta fonte de pacote."
+    },
+    {
+      "@id": "https://api.nuget.org/v3/vulnerabilities/index.json",
+      "@type": "VulnerabilityInfo/6.7.0",
+      "comentário": "O endpoint para descobrir informações sobre vulnerabilidades de pacotes nesta fonte de pacote."
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/index.json",
+      "@tipo": "Catálogo/3.0.0",
+      "comentário": "Índice do catálogo de pacotes NuGet."
+    }
+  ],
+  "@contexto": {
+    "@vocab": "http://schema.nuget.org/services#",
+    "comentário": "http://www.w3.org/2000/01/rdf-schema#comment"
+  }
+}

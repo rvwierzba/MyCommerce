@@ -1,0 +1,119 @@
+﻿@model VendaModel
+
+@{
+    <h1 style="text-align: center">Registrar Venda</h1>
+
+    <br />
+
+    <form asp-asp-controller="Venda" asp-action="Registrar" method="post">
+            
+        <div class="form-group">
+            <label>Cliente</label>
+            <select asp-for="Cliente_Id" class="form-control">
+                @{
+                    foreach(var item in (List<ClienteModel>)ViewBag.ListaClientes)
+                    {
+                        <option value="@item.Id">@item.Nome</option>
+                    }
+                }
+               </select>        
+        </div>
+
+       
+        <label>Produtos</label>
+        <br>
+        <div class="form-group">
+            <div class="col-lg-9">
+                   <select class="form-control" id="sltProduto">
+                        @{
+                            foreach (var item in (List<ProdutoModel>)ViewBag.ListaProdutos)
+                            {
+                                <option value="@item.Id">@item.Nome | @item.Preco_Unitario</option>
+                            }
+                        }
+                   </select>
+            </div>
+
+            <div class="col-lg-1">
+                <input type="text" class="form-control" value="1" id="txtQuantidade"/>
+            </div>
+
+            <div class="col-lg-2">
+                <button class="btn btn-block btn-primary" type="button" style="width: 100%" onclick="AddProduto()">+</button>
+            </div>
+           
+        </div>
+        <br> <br>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                       <td>Id</td>
+                       <td>Nome</td>
+                       <td>Qtd.</td>
+                       <td>Preço unt.</td>
+                       <td>Total R$</td>
+                    </tr>
+                </thead>
+
+            <tbody id="listaProdutos"> </tbody>
+            </table>
+        <br>
+            <div style="float: left; font-size: 22px">R$</div>
+            <div id="divTotal" style="float: left; font-size: 22px; margin-left: 3%">0,00</div>
+
+            <input type="hidden" id="txtTotal" asp-for="Total"/>
+        <br>
+
+        <textarea asp-for="ListaProdutos" id="ListaProdutosJSON" style="display:none;"></textarea>
+
+        <button class="btn btn-block btn-success" type="submit" style="width: 100%" onclick="AddProduto()">Registar Venda</button>
+    </form>
+    <button class="btn btn-block btn-primary" type="button" style="width: 100%" onclick="voltarLista()">Voltar Lista de Vendas</button>
+
+    <script>
+        var Itens = new Object();
+        Itens.Produtos = new Array();
+
+        var codProduto = document.getElementById('sltProduto');
+        var qtdProduto = document.getElementById('txtQuantidade');
+        var ListaProdutos = document.getElementById('listaProdutos');
+        var TotalVenda = document.getElemntById('divTotal');
+        var txtTotal = document.getEelementById('txtTotal');
+        var ListaProdutosJSON = document.getElementById('ListaProdutosJSON');
+
+        function AddProduto(){
+            var descPreco = codProduto.options[codProduto.selectedIndex].text;
+            var arrayDescPreco = descPreco.split('|');
+            var total = (arrayDescPreco[1].replace(",", ".") * qtdProduto.value);
+            total = Math.round(total * 100) / 100;
+
+            Itens.Produtos.push({
+                "CodProduto": codProduto.value,
+                "DescProduto": arrayDescPreco[0], 
+                "QtdProduto": qtdProduto.value,
+                "PrecoUnit": arrayDescPreco[1],
+                "Total": total
+            });
+
+            ListaProdutosJSON.innerHTML = JSON.stringify(itens.Produtos);
+
+            var produto = "<tr>"+
+                "<td>"+codProduto.value+"</td>"+
+                "<td>"+arrayDescPreco[0]+"</td>"+
+                "<td>"+qtdProduto.value+"</td>"+
+                "<td>R$ "+ arrayDescPreco[1]+"</td>"+
+                "<td>R$ "+ total+ "</td>"+
+            "</tr>";
+
+            ListaProdutos.innerHTML += produto;
+            var totalVenda = Math.round((TotalVenda.innerText*1+total) * 100 / 100);
+            TotalVenda.innerHTML += totalVenda;
+            txtTotal.value = totalVenda.toString().replace(".", ",");
+        }
+
+        function voltarLista(){
+            window.location.href = '../Venda/Index';
+        }
+    </script>
+
+}

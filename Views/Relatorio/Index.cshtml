@@ -1,0 +1,14 @@
+﻿
+@{
+    <h1 style="text-align: center">Relatórios</h1>
+
+    <button class="btn btn-block btn-primary" type="button" style="width: 100%" onclick="Relatorio('VendasPeriodo')">Vendas por Período</button>
+    <button class="btn btn-block btn-warning" type="button" style="width: 100%" onclick="Relatorio('Grafico')">Gráfico de Vendas</button>
+    <button class="btn btn-block btn-success" type="button" style="width: 100%" onclick="Relatorio('Comissao')">Comissão de Vendedores</button>
+    
+    <script>
+        function Relatorio(viewName) {
+            window.location.href = `../Relatorio/${viewName}`
+        }
+    </script>
+}
